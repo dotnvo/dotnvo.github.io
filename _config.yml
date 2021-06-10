@@ -39,9 +39,9 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "dev.nvo@pm.me
- # facebook: deanattali
- github: n-v-o
- # twitter: daattali
+# facebook: deanattali
+  github: n-v-o
+# twitter: daattali
 #  patreon: DeanAttali
 #  youtube: c/daattali
 #  medium: yourname
@@ -227,6 +227,9 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - posts/2020-02-26-flake-it-till-you-make-it.md
+  - posts/2020-02-28-test-markdown.md
+
 
 plugins:
   - jekyll-paginate
