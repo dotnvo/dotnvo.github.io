@@ -14,7 +14,7 @@ author: n-v-o
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "https://github.com/n-v-o"
+  About Me: about
   Resources:
   #  - Learn markdown: "https://www.markdowntutorial.com/"
 
@@ -53,7 +53,7 @@ social-network-links:
 #  spotify: yourname
 #  telephone: +14159998888
   steam: 76561197984152430
-#  twitch: yourname
+  twitch: nvo_tv
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
