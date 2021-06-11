@@ -14,9 +14,10 @@ author: n-v-o
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: about
+  About Me: aboutme
   Resources:
-  #  - Learn markdown: "https://www.markdowntutorial.com/"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Microsoft Learn: "https://docs.microsoft.com/en-us/learn/"
 
 # --- Logo --- #
 

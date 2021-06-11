@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Using the Split Method to Split strings in PowerShell 7.1+ (.NET 5)
+title: Using .NET 5 split Method to split strings in PowerShell 7.1+
 subtitle: Coding
 tags: [powershell,scripting,dotnet,coding,tutorial]
 comments: true
 ---
 
-I started using Powershell in version 5, which is built on .NET 4.  If you're like me, you may have played around, but not really used Powershell 6, which was built on .NET Core.
+I started using Powershell in version 5, which is built on .NET 4.
 
-Powershell 7 (well 7.1 and up anyway) is built on .NET 5. 7.1+ has implemented a ton of awesome features, and I highly recommend giving it a go!
+Powershell 7 (well 7.1 and up anyway) is built on .NET 5. 7.1+ has implemented a ton of awesome features. As with any change, 
 
 
-If you're like me, you probably use a mixture of .NET methods or letting PowerShell do its magic. One method I often use is Split. I was working on a project where I was matching culture to a region that a game supported to automagically identify a default Country Code for my end users. My goal was to get the country from the Display Name in `Get-Culture` In PowerShell 5, this might be how I do this:
+I use a mixture of .NET methods when I code in Powershell. One method I often use is Split. I was working on a project where I was matching culture to a region that a game supported to automagically identify a default Country Code for my end users. My goal was to get the country from the Display Name in `Get-Culture` In PowerShell 5, this might be how I do this:
 
 ```powershell
 Get-Culture | Select-Object -ExpandProperty DisplayName
@@ -51,6 +51,5 @@ $SplitArray = ((Get-Culture | Select-Object -ExpandProperty DisplayName).Split([
 $SplitArray
 United States
 ```
-Note the extra [] to indicate we have an array of characters we need to split on. This is a pretty decent method of replicating the same behavior in PowerShell 5. Feel free to comment below on other techniques you use, as there are plenty of other ways to tackle this!
 
 Happy coding!
