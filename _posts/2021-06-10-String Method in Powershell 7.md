@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Using .NET 5 split Method to split strings in PowerShell 7.1+
-subtitle: Coding
 tags: [powershell,scripting,dotnet,coding,tutorial]
 comments: true
 ---
