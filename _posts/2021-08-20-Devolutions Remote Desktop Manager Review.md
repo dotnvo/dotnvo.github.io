@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Devolutions Remote Desktop Manager Review
-cover-img: /assets/img/control-the-it-chaos-devolutions.png
+cover-img: /assets/img/space-devolutions-banner.jpg
 thumbnail-img: /assets/img/remote-desktop-manager-color-lr.png
 share-img: /assets/img/space-devolutions.jpg
 tags: [reviews, RemoteDesktopManager, Software]
