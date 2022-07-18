@@ -6,10 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: dotnvo
+title: dotnVO
 
 # Your name to show in the footer
-author: dotnvo
+author: dotnVO
 
 # --- List of links in the navigation bar --- #
 
@@ -40,8 +40,8 @@ round-avatar: true
 social-network-links:
   email: dev.nvo@pm.me
 # facebook: deanattali
-  github: dotnvo
-  twitter: dotnvo
+  github: dotnVO
+  twitter: dotnVO
 #  patreon: DeanAttali
   youtube: channel/UCjaciL4zJfE0PCE-ng2dp5Q
 #  medium: yourname
@@ -77,7 +77,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "dotnvo.github.io"
+url-pretty: "dotnVO.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
